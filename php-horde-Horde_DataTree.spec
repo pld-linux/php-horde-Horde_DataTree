@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - DataTree API
 Name:		php-horde-Horde_DataTree
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	fe6b82a1d56c4a91ad9810828942dcb5
+# Source0-md5:	436697763dadb8cc0aef1cd0d14b394a
 URL:		https://github.com/horde/horde/tree/master/framework/DataTree/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
@@ -21,6 +21,7 @@ Requires:	php-horde-Horde_Exception < 2.0.0
 Requires:	php-horde-Horde_Serialize < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
+Requires:	php-pear-DB
 Suggests:	php-gettext
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
