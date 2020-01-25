@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_DataTree
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - DataTree API
 Name:		php-horde-Horde_DataTree
 Version:	1.0.1
